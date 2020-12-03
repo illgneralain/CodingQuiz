@@ -160,8 +160,10 @@ function showScore(){
 submitScoreBtn.addEventListener("click", function highscore(){
 // prevent user from not entering initials for high score
     if(highscoreInputName.value === ""){
-        alert("No initials entered!")
+        alert("No initials entered!");
+        return false;
         )
+        else
     }
 })
 
