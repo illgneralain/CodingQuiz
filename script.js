@@ -187,6 +187,16 @@ submitScoreBtn.addEventListener("click", function highscore(){
     }
     });
 
+    // clearing time
+
+    function generateHighscores(){
+        highscoreDisplayName.innerHTML ="";
+        highscoreDisplayScore.innerHTML ="";
+        var highscores = JSON.parse(localStorage.getItem("savedHighscores")) || [];
+        // for loop
+        for (i=0; )
+    }
+
 // Creating an action for the submit button to store the high score
 // initials then create a function that will store the new user and score, may need to create a a child variable
 // display high score  
