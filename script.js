@@ -166,4 +166,4 @@ function showScore(){
 // more childs? variables needed 
 
 // append new high score and initial 
-
+// hide other divs and show high score div only 
