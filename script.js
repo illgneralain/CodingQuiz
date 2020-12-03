@@ -168,3 +168,4 @@ function showScore(){
 // append new high score and initial 
 // hide other divs and show high score div only 
 // clear list of high scores 
+// clear local storage 
