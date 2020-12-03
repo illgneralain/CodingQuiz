@@ -8,3 +8,11 @@ li{
     text-shadow: 1.5px 1px 3px black;
     list-style-type: none;
 }
+
+p{
+    color: black;
+    text-shadow: .5px .5px white;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
