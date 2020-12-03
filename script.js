@@ -165,3 +165,5 @@ function showScore(){
 // saw online a trim can be used to take initials away 
 // more childs? variables needed 
 
+// append new high score and initial 
+
