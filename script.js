@@ -228,7 +228,7 @@ function replayQuiz(){
     startQuizDiv.style.display = "flex";
     timeLeft = 76;
     score = 0;
-    currentQuestionIndex;
+    currentQuestionIndex = 0;
 }
 
 // Creating an action for the submit button to store the high score
