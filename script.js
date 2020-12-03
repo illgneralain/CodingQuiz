@@ -171,6 +171,19 @@ submitScoreBtn.addEventListener("click", function highscore(){
             name : currentUser
             score : score
         };
+
+        // game over div 
+
+        gameoverDiv.style.display = "none";
+        highscoreContainer.style.display = "flex";
+        highscoreDiv.style.display = "block";
+        endGameBtns.style.display= "flex";
+
+        // push current High score by user to saved high scores storage
+
+        savedHighscores.push(currentHighscore);
+        localStorage.setItem("savedHighscores", JSON.stringify("savedHighscores"));
+        generateHighscores();
 })
 
 // Creating an action for the submit button to store the high score
