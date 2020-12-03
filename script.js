@@ -187,7 +187,7 @@ submitScoreBtn.addEventListener("click", function highscore(){
     }
     });
 
-    // clearing time
+    // keeps adding more than just one high score 
 
     function generateHighscores(){
         highscoreDisplayName.innerHTML ="";
@@ -203,7 +203,7 @@ submitScoreBtn.addEventListener("click", function highscore(){
             highscoreDisplayScore.appendChild(newRecord);
         }
     }
-    // show high score page hide others function
+    // show high score page hide others 
 function showHighscore(){
     startQuizDiv.style.display = "none";
     gameoverDiv.style.display = "none";
@@ -212,7 +212,24 @@ function showHighscore(){
     endGameBtns.style.display = "flex";
     generateHighscores();
 }
+// clear storage
 
+function clearScore(){
+    window.localStorage.clear();
+    highscoreDisplayName.textContent ="";
+    highscoreDisplayName.textContent = "";
+}
+
+// replay quiz
+
+function replayQuiz(){
+    highscoreContainer.style.display = "none";
+    gameoverDiv.style.display = "none";
+    startQuizDiv.style.display = "flex";
+    timeLeft = 76;
+    score = 0;
+    currentQuestionIndex;
+}
 
 // Creating an action for the submit button to store the high score
 // initials then create a function that will store the new user and score, may need to create a a child variable
