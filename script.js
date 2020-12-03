@@ -241,8 +241,15 @@ function checkAnswer(answer){
       // generate next question
       generateQuizQuestion();  
     }
+    else if (answer !== correct && currentQuestionIndex !== finalQuestionIndex){
+        alert("Incorrect!");
+        currentQuestionIndex++;
+        generateQuizQuestion();
+    }else{
+        showScore();
+    }
+    }
 
-}
 
 // Creating an action for the submit button to store the high score
 // initials then create a function that will store the new user and score, may need to create a a child variable
