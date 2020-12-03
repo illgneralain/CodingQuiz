@@ -164,7 +164,7 @@ submitScoreBtn.addEventListener("click", function highscore(){
         return false;
         )
         else
-    }
+    {
 })
 
 // Creating an action for the submit button to store the high score
