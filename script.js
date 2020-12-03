@@ -158,8 +158,10 @@ function showScore(){
 }
 
 // Creating an action for the submit button to store the high score
-// initials then create a function that will store the new user and score 
-// display high score 
+// initials then create a function that will store the new user and score, may need to create a a child variable
+// display high score  
 
-
+// use parse, local store, and get item to retrieve all saved high scores 
+// saw online a trim can be used to take initials away 
+// more childs? variables needed 
 
