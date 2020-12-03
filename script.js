@@ -157,6 +157,14 @@ function showScore(){
     finalScoreEl.innerHTML = "You got " + score + "out of" + quizQuestions.length + "correct!"; 
 }
 
+submitScoreBtn.addEventListener("click", function highscore(){
+// prevent user from not entering initials for high score
+    if(highscoreInputName.value === ""){
+        alert("No initials entered!")
+        )
+    }
+})
+
 // Creating an action for the submit button to store the high score
 // initials then create a function that will store the new user and score, may need to create a a child variable
 // display high score  
