@@ -157,5 +157,9 @@ function showScore(){
     finalScoreEl.innerHTML = "You got " + score + "out of" + quizQuestions.length + "correct!"; 
 }
 
+// Creating an action for the submit button to store the high score
+// initials then create a function that will store the new user and score 
+// display high score 
+
 
 
