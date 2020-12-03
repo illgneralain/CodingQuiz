@@ -194,7 +194,12 @@ submitScoreBtn.addEventListener("click", function highscore(){
         highscoreDisplayScore.innerHTML ="";
         var highscores = JSON.parse(localStorage.getItem("savedHighscores")) || [];
         // for loop
-        for (i=0; )
+        for (i=0; i<highscores.length; i++){
+            var newChallenger = document.createElement("li");
+            var newRecord = document.createElement("li");
+            newChallenger.textContent = highscores[i].name;
+            newRecord.textContent = highscores[i].score;
+        }
     }
 
 // Creating an action for the submit button to store the high score
