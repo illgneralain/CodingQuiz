@@ -162,8 +162,8 @@ submitScoreBtn.addEventListener("click", function highscore(){
     if(highscoreInputName.value === ""){
         alert("No initials entered!");
         return false;
-        )
-        else
+        
+    }else
     {
         var savedHighscores = JSON.parse(localStorage.getItem("savedHighscores") || []);
         var currentUser = highscoreInputName.value.trim();
@@ -184,7 +184,8 @@ submitScoreBtn.addEventListener("click", function highscore(){
         savedHighscores.push(currentHighscore);
         localStorage.setItem("savedHighscores", JSON.stringify("savedHighscores"));
         generateHighscores();
-})
+    }
+    });
 
 // Creating an action for the submit button to store the high score
 // initials then create a function that will store the new user and score, may need to create a a child variable
