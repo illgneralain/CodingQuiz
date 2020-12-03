@@ -230,6 +230,19 @@ function replayQuiz(){
     score = 0;
     currentQuestionIndex = 0;
 }
+// function if answer is correct, alert 
+function checkAnswer(answer){
+    correct = quizQuestions[currentQuestionIndex].correctAnswer;
+    if (answer === correct && currentQuestion !== finalQuestionIndex){
+      score++;
+      alert("Correct!");
+      // add another question from the quizQuestion that stored in currentQuestionIndex array 
+      currentQuestionIndex++;
+      // generate next question
+      generateQuizQuestion();  
+    }
+
+}
 
 // Creating an action for the submit button to store the high score
 // initials then create a function that will store the new user and score, may need to create a a child variable
