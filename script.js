@@ -168,7 +168,7 @@ submitScoreBtn.addEventListener("click", function highscore(){
         var savedHighscores = JSON.parse(localStorage.getItem("savedHighscores") || []);
         var currentUser = highscoreInputName.value.trim();
         var currentHighscore = {
-            name : currentUser
+            name : currentUser,
             score : score
         };
 
