@@ -66,3 +66,12 @@ button:hover{
     color: #eeeeee;
     font-size: x-large;
 }
+
+#quiz {
+    display: none;
+}
+
+#result {
+    display: none;
+}
+
