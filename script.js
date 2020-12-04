@@ -109,7 +109,7 @@ var currentQuestionIndex = 0;
 var timeLeft = 76;
 var timerInterval;
 var score = 0
-var correct; 
+var correctAnswer; 
 
 // This function pulls the questions from our quizQuestion object
 
