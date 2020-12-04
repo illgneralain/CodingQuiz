@@ -109,7 +109,7 @@ var currentQuestionIndex = 0;
 var timeLeft = 76;
 var timerInterval;
 var score = 0
-var correctAnswer; 
+var correctQuestion; 
 
 // This function pulls the questions from our quizQuestion object
 
@@ -241,7 +241,7 @@ function checkAnswer(answer){
       // generate next question
       generateQuizQuestion();  
     }
-    else if (answer !== correct && currentQuestionIndex !== finalQuestionIndex){
+    else if (answer !== correctQuestion && currentQuestionIndex !== finalQuestionIndex){
         alert("Incorrect!");
         currentQuestionIndex++;
         generateQuizQuestion();
