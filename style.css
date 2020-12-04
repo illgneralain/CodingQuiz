@@ -35,3 +35,25 @@ input{
     max-width: 00rem;
     margin: 0 auto;
 }
+
+button {
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: 5e6df1;
+    border-radius: 10px;
+    border: 3px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 200px;
+    margin-top: 3px;
+}
+
+button:hover{
+    box-shadow: 4px 3px 6px #4450bd;
+}
+
+#startpage{
+    
+}
