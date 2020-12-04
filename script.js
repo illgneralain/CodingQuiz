@@ -14,6 +14,7 @@ var submitScoreBtn = document.getElementById("submitScoreBtn");
 var highscoreInputName = document.getElementById("initials");
 var highscoreDisplayName = document.getElementById("highscore-initials");
 var highscoreDisplayScore = document.getElementById("highscore-score");
+var replayBtn = document.getElementById("playagain");
 
 // button varialbes 
 
@@ -237,6 +238,7 @@ function checkAnswer(answer){
     }
     }
 startQuizButton.addEventListener("click", startQuiz);
+
 // add event listener to start quiz 
 
 // Creating an action for the submit button to store the high score
