@@ -115,5 +115,12 @@ button:hover{
 }
 
 #highscore-initials{
-    display: inline-block;  
+    display: inline-block; 
+    padding-left: 9.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold; 
+}
+
+#highscore-score{
+    float: right;
 }
