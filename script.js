@@ -154,7 +154,7 @@ function showScore(){
     gameoverDiv.style.display = "flex";
     clearInterval(timerInterval);
     highscoreInputName.value = "";
-    finalScoreEl.innerHTML = "You got " + score + "out of" + quizQuestions.length + "correct!"; 
+    finalScoreEl.innerHTML = "You got " + score + " out of" + quizQuestions.length + " correct!"; 
 }
 
 submitScoreBtn.addEventListener("click", function highscore(){
@@ -232,8 +232,8 @@ function replayQuiz(){
 }
 // function if answer is correct, alert 
 function checkAnswer(answer){
-    correct = quizQuestions[currentQuestionIndex].correctAnswer;
-    if (answer === correct && currentQuestion !== finalQuestionIndex){
+    correctQuestion = quizQuestions[currentQuestionIndex].correctAnswer;
+    if (answer === correctQuestion && currentQuestion !== finalQuestionIndex){
       score++;
       alert("Correct!");
       // add another question from the quizQuestion that stored in currentQuestionIndex array 
