@@ -237,7 +237,7 @@ function checkAnswer(answer){
         showScore();
     }
     }
-startQuizButton.addEventListener("click", replayQuiz);
+startQuizButton.addEventListener("click", startQuiz);
 
 
 
