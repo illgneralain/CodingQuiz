@@ -1,3 +1,5 @@
+// $(document).ready() tried implementing every time I do it messes up format 
+
 // Assigning soon to be used HTML elements
 var quizTimer = document.getElementById("timer");
 var startQuizButton = document.getElementById("startbtn");
@@ -14,7 +16,7 @@ var submitScoreBtn = document.getElementById("submitScoreBtn");
 var highscoreInputName = document.getElementById("initials");
 var highscoreDisplayName = document.getElementById("highscore-initials");
 var highscoreDisplayScore = document.getElementById("highscore-score");
-var replayBtn = document.getElementById("playagain");
+// var replayBtn = document.getElementById("playagain");
 
 // button varialbes 
 
@@ -94,7 +96,7 @@ var quizQuestions = [{
 
 var finalQuestionIndex = quizQuestions.length;
 var currentQuestionIndex = 0;
-var timeLeft = 76;
+var timeLeft = 60;
 var timerInterval;
 var score = 0
 var correctQuestion; 
