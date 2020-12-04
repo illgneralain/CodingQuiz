@@ -1,19 +1,22 @@
 // Assigning soon to be used HTML elements
-var quizBody = document.getElementById("quiz");
-var resultsEL = document.getElementById("result");
-var finalScoreEl = document.getElementById("finalScore");
-var gameoverDiv = document.getElementById("gameover");
-var questionsEl = document.getElementById("questions");
 var quizTimer = document.getElementById("timer");
 var startQuizButton = document.getElementById("startbtn");
 var startQuizDiv = document.getElementById("startpage");
 var highscoreContainer = document.getElementById("highscoreContainer");
 var highscoreDiv = document.getElementById("high-scorePage");
-var highscoreInputName = document.getElementById("initials");
-var highscoreDisplayName = document.getElementById("highscore-initials");
+var quizBody = document.getElementById("quiz");
+var resultsEL = document.getElementById("result");
+var finalScoreEl = document.getElementById("finalScore");
+var gameoverDiv = document.getElementById("gameover");
+var questionsEl = document.getElementById("questions");
 var endGameBtns = document.getElementById("endGameBtns");
 var submitScoreBtn = document.getElementById("submitScoreBtn");
+var highscoreInputName = document.getElementById("initials");
+var highscoreDisplayName = document.getElementById("highscore-initials");
 var highscoreDisplayScore = document.getElementById("highscore-score");
+
+// button varialbes 
+
 var buttonA = document.getElementById("a");
 var buttonB = document.getElementById("b");
 var buttonC = document.getElementById("c");
@@ -22,83 +25,67 @@ var buttonD = document.getElementById("d");
 // Creating Questionaire Object 
 
 var quizQuestions = [{
-    question: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    question: "Difference between HTML and CSS",
+    choiceA: "They are the same",
+    choiceB: "Right choice is always C",
+    choiceC: "HTML is markup, CSS is styling",
+    choiceD: "All of the above",
     correctAnswer: "c"
 },
 {
-    question: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    question: "Difference between section and div ",
+    choiceA: "They are the same",
+    choiceB: "Right choice is always C",
+    choiceC: "Section describes the larger object, div can be used for everything",
+    choiceD: "All of the Above",
     correctAnswer: "c"
 },
 {
-    question: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    question: "Difference between section and div ",
+    choiceA: "They are the same",
+    choiceB: "Right choice is always C",
+    choiceC: "Section describes the larger object, div can be used for everything",
+    choiceD: "All of the Above",
     correctAnswer: "c"
 },
 {
-    question: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    question: "Difference between section and div ",
+    choiceA: "They are the same",
+    choiceB: "Right choice is always C",
+    choiceC: "Section describes the larger object, div can be used for everything",
+    choiceD: "All of the Above",
     correctAnswer: "c"
 },
 {
-    question: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    question: "Difference between section and div ",
+    choiceA: "They are the same",
+    choiceB: "Right choice is always C",
+    choiceC: "Section describes the larger object, div can be used for everything",
+    choiceD: "All of the Above",
     correctAnswer: "c"
 },
 {
-    question: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    question: "Difference between section and div ",
+    choiceA: "They are the same",
+    choiceB: "Right choice is always C",
+    choiceC: "Section describes the larger object, div can be used for everything",
+    choiceD: "All of the Above",
     correctAnswer: "c"
 },
 {
-    question: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    question: "Difference between section and div ",
+    choiceA: "They are the same",
+    choiceB: "Right choice is always C",
+    choiceC: "Section describes the larger object, div can be used for everything",
+    choiceD: "All of the Above",
     correctAnswer: "c"
 },
 {
-    question: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "c"
-},
-{
-    question: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "c"
-},
-{
-    question: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    question: "Difference between section and div ",
+    choiceA: "They are the same",
+    choiceB: "Right choice is always C",
+    choiceC: "Section describes the larger object, div can be used for everything",
+    choiceD: "All of the Above",
     correctAnswer: "c"},
 ];
 
