@@ -45,13 +45,14 @@ button {
     color: #eeeeee;
     text-align: center;
     font-size: 15px;
+    text-decoration-color: darkcyan;
     padding: 20px;
     width: 200px;
     margin-top: 3px;
 }
 
 button:hover{
-    box-shadow: 4px 3px 6px #4450bd;
+    box-shadow: 4px 3px 6px #999b13;
 }
 
 #startpage{
@@ -63,7 +64,7 @@ button:hover{
 #timer{
     font-family: 'Courier New', Courier, monospace;
     background-color: 5a69f0;
-    color: #eeeeee;
+    color: crimson;
     font-size: x-large;
 }
 
