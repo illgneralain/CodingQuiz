@@ -249,6 +249,7 @@ function checkAnswer(answer){
         showScore();
     }
     }
+startQuizButton.addEventListener("click", startQuiz);
 // add event listener to start quiz 
 
 // Creating an action for the submit button to store the high score
