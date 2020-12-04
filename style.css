@@ -123,4 +123,18 @@ button:hover{
 
 #highscore-score{
     float: right;
+    padding-right: 8.75rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#finalScore{
+    padding-bottom: 0.5rem;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#endGameBtns{
+    display: none;
 }
