@@ -233,8 +233,8 @@ function replayQuiz(){
 // function if answer is correct, alert 
 function checkAnswer(answer){
     correctQuestion = quizQuestions[currentQuestionIndex].correctAnswer;
-    if (answer === correctQuestion && currentQuestion !== finalQuestionIndex){
-      score++;
+    if (answer == correctQuestion && currentQuestionIndex !== finalQuestionIndex){
+        score++;
       alert("Correct!");
       // add another question from the quizQuestion that stored in currentQuestionIndex array 
       currentQuestionIndex++;
